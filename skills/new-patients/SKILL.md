@@ -27,6 +27,6 @@ range and a definition; do not substitute one definition for another silently.
    presenting a partial list as a complete total.
 
 When identities are hidden, say: "Patient identities are hidden for this
-connection. The optional 'Also share patient identities and notes' permission
+connection. The optional 'Also share patient names and notes' permission
 controls whether they can be shared." Answer with permitted counts; never try
 to identify patients from dates, identifiers or another source.

@@ -25,6 +25,6 @@ instead of assuming every practice has the same tools or parameters.
    completed production as a forecast, or offer clinical recommendations.
 
 When identities are hidden, say: "Patient identities are hidden for this
-connection. The optional 'Also share patient identities and notes' permission
+connection. The optional 'Also share patient names and notes' permission
 controls whether they can be shared." Give the permitted schedule details;
 never infer names, fetch them elsewhere or work around the permission.

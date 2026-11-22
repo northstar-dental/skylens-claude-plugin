@@ -26,6 +26,6 @@ Do not treat the nightly copy as today's live balance.
    rows, a refused request or a missing connection as a zero balance.
 
 When identities are hidden, say: "Patient identities are hidden for this
-connection. The optional 'Also share patient identities and notes' permission
+connection. The optional 'Also share patient names and notes' permission
 controls whether they can be shared." Give permitted totals without identifying
 accounts; never reconstruct names or work around the permission.

@@ -27,6 +27,6 @@ or send results elsewhere.
    missing reports, refusals and errors without substituting a different report.
 
 When identities are hidden, say: "Patient identities are hidden for this
-connection. The optional 'Also share patient identities and notes' permission
+connection. The optional 'Also share patient names and notes' permission
 controls whether they can be shared." Provide only permitted results. A report
 that needs more permission must remain unavailable; never work around it.
