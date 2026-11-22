@@ -10,7 +10,7 @@ data. Images and X-rays are not included. Open Dental Cloud is not supported.
 This plugin adds five question guides and connects Claude to the SkyLens server at
 `https://mcp.northstar.dental/mcp`. It contains instructions and the server address,
 with no scripts, hooks, API keys or bundled server. When you use a tool, Claude
-sends the request to SkyLens and receives practice data within your permissions.
+uses the connected SkyLens tools to answer your question.
 
 ## Install in Claude Code
 
@@ -27,19 +27,8 @@ Restart the session to load the plugin. Open `/mcp`, select
 browser and review the permissions before connecting. Do not paste credentials
 into a conversation or edit this plugin to add them.
 
-For connection instructions, see the [Claude connection guide](https://app.northstar.dental/connectors/claude).
-
-## Choose what to share
-
-The consent screen offers two permissions:
-
-- **Read practice data with patient identities hidden** (required).
-- **Also share patient identities and notes** (optional).
-
-Hiding identities does not make the results de-identified. For HIPAA-related use,
-check your practice's own agreement with Anthropic before allowing patient
-identities and notes, including whether it covers the use you intend. This plugin
-does not establish that coverage.
+For connection instructions and guidance on patient identities, see the
+[Claude connection guide](https://app.northstar.dental/connectors/claude).
 Read the [NorthStar privacy policy](https://northstar.dental/privacy).
 
 ## Ask a question
@@ -66,7 +55,7 @@ To stop loading this plugin's guides and server, run
 Uninstalling the plugin does not revoke an existing SkyLens authorization. In
 SkyLens, open **Settings > Assistant** and disconnect the Claude connection too.
 If you connected SkyLens separately in another Claude app, disconnect it there as
-well. Disconnecting does not erase answers already in your conversations.
+well.
 
 ## License
 
