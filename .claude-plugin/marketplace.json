@@ -1,0 +1,13 @@
+{
+  "name": "northstar-dental",
+  "description": "SkyLens by NorthStar for questions about your practice's Open Dental data.",
+  "owner": {
+    "name": "NorthStar Dental"
+  },
+  "plugins": [
+    {
+      "name": "skylens",
+      "source": "./"
+    }
+  ]
+}

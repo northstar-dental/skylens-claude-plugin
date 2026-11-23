@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "skylens": {
+      "type": "http",
+      "url": "https://mcp.northstar.dental/mcp"
+    }
+  }
+}

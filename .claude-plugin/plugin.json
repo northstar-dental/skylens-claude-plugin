@@ -1,0 +1,13 @@
+{
+  "name": "skylens",
+  "displayName": "SkyLens by NorthStar",
+  "version": "1.0.0",
+  "description": "Ask questions of your practice's Open Dental data with SkyLens tools and five question guides.",
+  "author": {
+    "name": "NorthStar Dental"
+  },
+  "homepage": "https://app.northstar.dental/connectors/claude",
+  "privacyPolicyUrl": "https://northstar.dental/privacy",
+  "repository": "https://github.com/northstar-dental/skylens-claude-plugin",
+  "license": "Apache-2.0"
+}
