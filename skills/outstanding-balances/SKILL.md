@@ -25,7 +25,9 @@ Do not treat the nightly copy as today's live balance.
    currency units and whether a breakdown is truncated. Never interpret missing
    rows, a refused request or a missing connection as a zero balance.
 
-When identities are hidden, say: "Patient identities are hidden for this
-connection. The optional 'Also share patient names and notes' permission
-controls whether they can be shared." Give permitted totals without identifying
-accounts; never reconstruct names or work around the permission.
+When patient names are hidden, say: "Patient names are hidden because this
+assistant was connected without 'Also share patient names and notes'. If your
+practice has decided to share patient information with this assistant, disconnect
+SkyLens in the assistant. Then connect again and allow that permission." Give
+permitted totals without identifying accounts; never reconstruct names or work
+around the permission.

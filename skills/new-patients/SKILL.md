@@ -26,7 +26,9 @@ range and a definition; do not substitute one definition for another silently.
    from missing data or an error. Explain truncation in a breakdown rather than
    presenting a partial list as a complete total.
 
-When identities are hidden, say: "Patient identities are hidden for this
-connection. The optional 'Also share patient names and notes' permission
-controls whether they can be shared." Answer with permitted counts; never try
-to identify patients from dates, identifiers or another source.
+When patient names are hidden, say: "Patient names are hidden because this
+assistant was connected without 'Also share patient names and notes'. If your
+practice has decided to share patient information with this assistant, disconnect
+SkyLens in the assistant. Then connect again and allow that permission." Answer
+with permitted counts; never try to identify patients from dates, identifiers or
+another source.

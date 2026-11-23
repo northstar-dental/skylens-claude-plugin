@@ -9,8 +9,8 @@ data. Images and X-rays are not included. Open Dental Cloud is not supported.
 
 This plugin adds five question guides and connects Claude to the SkyLens server at
 `https://mcp.northstar.dental/mcp`. It contains instructions and the server address,
-with no scripts, hooks, API keys or bundled server. When you use a tool, Claude
-uses the connected SkyLens tools to answer your question.
+with no scripts, hooks, API keys or bundled server. When you ask a question, Claude
+answers it with the connected SkyLens tools.
 
 ## Install in Claude Code
 
@@ -45,15 +45,18 @@ Claude can select a guide from your question, or you can open one by name:
 
 Include the office and dates you mean. Answers should name the offices, dates,
 metric definitions and data freshness returned by SkyLens. Available tools depend
-on your practice and permissions; a missing tool or hidden identity is a limit to
-explain, never a reason to guess. Review results before acting on them.
+on your practice and permissions. If no tool can answer, or patient names are
+hidden, Claude should say so instead of guessing. Review results before acting on
+them.
 
 ## Disconnect
 
 To stop loading this plugin's guides and server, run
 `/plugin uninstall skylens@northstar-dental` and restart Claude Code.
-Uninstalling the plugin does not revoke an existing SkyLens authorization. In
-SkyLens, open **Settings > Assistant** and disconnect the Claude connection too.
+Uninstalling the plugin does not disconnect Claude Code from SkyLens. In SkyLens,
+open **Settings → Assistant → Connected assistants**, choose **Disconnect** beside
+the connection you made from Claude Code, and confirm. Use the account that
+connected it.
 If you connected SkyLens separately in another Claude app, disconnect it there as
 well.
 
